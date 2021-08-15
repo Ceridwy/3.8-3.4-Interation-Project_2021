@@ -4,6 +4,10 @@ body  {
 	float: none;
 	margin: auto;
 	background-color: #f6f6f6;
+	background-image: url("images/fantasy-town-blur.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
 }
 
 hr {

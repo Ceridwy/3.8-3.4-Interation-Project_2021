@@ -2,10 +2,11 @@ body  {
 	max-width: 1800px;
 	float: none;
 	margin: auto;
-	background-image: url("images/fantasy-town.jpg");
+	background-image: url("images/fantasy-town-blur.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
+	
 }
 
 header {
@@ -51,9 +52,17 @@ header {
 
 /* Ceri's Creations */
 h1 { 
+	/*border-radius: 25px;
+	background: #fff;
+	padding: 20px; 
+	width: 250px;
+	height: 34px; */
 	position: center;
 	bottom: 250px;
 	color: #00726E;
+	/*background-color: #fff;
+	width: 280px;*/
+
 }
 
 	
