@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<!-- Metas -->
+	<meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+	<meta name= "description" content="A website for selling prints and other items.">
+		
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/stylecontact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+		
+	<title> CONTACT | CerisCreations.com</title>
+</head>
+<body>
+<main>
+	<header>
+		<!--- topnav--->
+		<div class="topnav" id="myTopnav">
+				<p align="center">
+					<a href="#meet the artist">Meet the artist</a>	
+					<a href="#shop">Shop</a>
+					<a href="#artwork">Artwork</a>
+				</a>
+		</div>
+	</header>
+	<!---Heading--->
+		<section>
+		<h1 align= "center">Contact</h1>
+		<!-- Break to bring form below nav -->
+					<br><br><hr><br>
+					<?php
+					//Get the connection to the database
+					require_once ("connect.php");
+					?>
+			
+			<!--- Form --->
+			<div class="contact_container">
+				<form action="mail-test.php" method="post">
+				
+	<!-- Name field-->
+				
+		<div class="row">
+			<div class="column">
+			<label for="fname">Full Name</label>
+			</div>
+			<div class="column2">
+			<input type="text" id="name name="name" placeholder= "your full name">
+			</div>
+		</div>
+			
+	<!-- Email field-->
+			
+		<div class="row">
+			<div class="column">
+					<label for="email">Email Address</label>
+				</div>
+				<div class="column2">
+				<input type="text" id="email" name="emailadress" placeholder= "your email address">
+			</div>
+			</div>
+		
+			<!--contact number field-->
+			
+			<div class="row">
+			<div class="column">
+					<label for="contactnumber">Contact Number</label>
+				</div>
+			<div class="column2">
+				<input type="text" id="contactnumber" name="contactnumber" placeholder= "A contact number">
+				</div>
+			</div>
+			
+			
+			<!-- subject field -->
+			<div class="row">
+				<div class="column">
+					<label for="subject">Subject</label>
+				</div>
+				<div class="column2">
+					<textarea id="body" name="body" placeholder= "write something..." style="height:200px"></textarea>
+			</div>
+			</div>
+			
+			
+			
+			<!-- submit button-->
+		<div class="row">
+				<input type="submit" value="submit">
+			</div>
+			
+		</form>
+	</div>
+		<!---- copyright statement---->
+		<div class="copyright">
+		<p align="center">copyright &copy; 2021   Ceri's_art_creations</p>
+		</div>	
+
+</body>
+</html>		
+		
+		</section>
+	
+	<!---?--->
+	<footer>
+		
+	</footer>
+
+</main>
+		

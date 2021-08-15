@@ -2,23 +2,17 @@ body  {
 	max-width: 1800px;
 	float: none;
 	margin: auto;
-	background-color: #f6f6f6;
+	background-image: url("images/fantasy-town.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
 }
+
 header {
 	width: 100%;
 	display: inline-block;
 }
 
-.copyright {
-	width: 100%;
-	display: inline-block;
-	position: fixed;
-	left: 50%;
-	bottom: 20px;
-	transform: translate(-50%, -50%);
-	margin: 0 auto;
-	background-color: #fff;
-}
 
 /* Menu */
 .topnav {
@@ -28,13 +22,14 @@ header {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: auto
+	
 }
 
 /* color of links */
@@ -52,4 +47,36 @@ header {
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+/* Ceri's Creations */
+h1 { 
+	position: center;
+	bottom: 250px;
+	color: #00726E;
+}
+
+	
+/* Logo */
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: auto;
+	background-color: #bbb;
+	border-radius: 50%;
+}
+
+/* copyright*/
+.copyright {
+	width: 100%;
+	display: inline-block;
+	position: fixed;
+	left: 50%;
+	bottom: 20px;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	background-color: #fff;
+	
 }
