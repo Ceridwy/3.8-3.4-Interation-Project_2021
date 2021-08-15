@@ -1,0 +1,55 @@
+body  {
+	max-width: 1800px;
+	float: none;
+	margin: auto;
+	background-color: #f6f6f6;
+}
+header {
+	width: 100%;
+	display: inline-block;
+}
+
+.copyright {
+	width: 100%;
+	display: inline-block;
+	position: fixed;
+	left: 50%;
+	bottom: 20px;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/* Menu */
+.topnav {
+  background-color: #00726E;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* color of links */
+.topnav a:hover {
+  background-color: #ABD6D5;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #c7ffd8;
+  color: darkgreen;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
