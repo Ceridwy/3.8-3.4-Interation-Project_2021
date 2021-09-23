@@ -18,40 +18,39 @@
 	</style>
 </head>
 <body>
-<main>
 	<header>
 		<!--- topnav--->
-		<div class="topnav" id="myTopnav">
-				<p align="center">
+		<div align="center" class="topnav" id="myTopnav">
 					<a href="meet.html">Meet the artist</a>	
 					<a href="shop.html">Shop</a>
 					<a href="artwork.html">Artwork</a>
 					<a href="contact.html">Contact me</a>
-				</a>
 		</div>
 	</header>
 	<!---Heading--->
 		<section>
 		<h1 align= "center">Contact</h1>
 		<!-- Break to bring form below nav -->
-					<br><br><hr><br>
+			<hr>
+				<br><br><hr><br>
 					<?php
 					//Get the connection to the database
-					require_once ("connect.php");
+					require_once ("13DIT_online_gallery_mysqli.php");
 					?>
+					
 			
-			<!--- Form --->
+<!--- Form --->
 			<div class="contact_container">
-				<form action="mail-test.php" method="post">
+		<form action="connect.php" method="post">
 				
 	<!-- Name field-->
 				
 		<div class="row">
 			<div class="column">
-			<label for="fname">Full Name</label>
+			<label for="name">Full Name</label>
 			</div>
 			<div class="column2">
-			<input type="text" id="name name="name" placeholder= "your full name">
+			<input type="text" id="name" name="name" placeholder= "your full name">
 			</div>
 		</div>
 			
@@ -60,22 +59,22 @@
 		<div class="row">
 			<div class="column">
 					<label for="email">Email Address</label>
-				</div>
+			</div>
 				<div class="column2">
-				<input type="text" id="email" name="emailadress" placeholder= "your email address">
-			</div>
-			</div>
+				<input type="text" id="email" name="email" placeholder= "your email address">
+				</div>
+		</div>
 		
 			<!--contact number field-->
 			
-			<div class="row">
+		<div class="row">
 			<div class="column">
-					<label for="contactnumber">Contact Number</label>
-				</div>
-			<div class="column2">
-				<input type="text" id="contactnumber" name="contactnumber" placeholder= "A contact number">
-				</div>
+					<label for="contact">Contact Number</label>
 			</div>
+				<div class="column2">
+				<input type="text" id="contact" name="contact" placeholder= "A contact number">
+				</div>
+		</div>
 			
 			
 			<!-- subject field -->
@@ -83,9 +82,9 @@
 				<div class="column">
 					<label for="subject">Subject</label>
 				</div>
-				<div class="column2">
-					<textarea id="body" name="body" placeholder= "write something..." style="height:200px"></textarea>
-			</div>
+					<div class="column2">
+					<textarea id="subject" name="subject" placeholder= "write something..." style="height:200px"></textarea>
+					</div>
 			</div>
 			
 			
@@ -93,11 +92,11 @@
 			<!-- submit button-->
 		<div class="row">
 				<input type="submit" value="submit">
-			</div>
+		</div>
 			
 		</form>
-	</div>
-		<!---- copyright statement---->
+			</div>
+			<!---- copyright statement---->
 		<div class="copyright">
 		<p align="center">copyright &copy; 2021   Ceri's_art_creations</p>
 		</div>	
@@ -105,12 +104,5 @@
 </body>
 </html>		
 		
-		</section>
-	
-	<!---?--->
-	<footer>
 		
-	</footer>
-
-</main>
 		
