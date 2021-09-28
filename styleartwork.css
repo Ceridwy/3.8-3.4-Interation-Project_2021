@@ -1,19 +1,21 @@
-
 body  {
 	max-width: 1800px;
 	float: none;
 	margin: auto;
-	background-color: #f6f6f6;
 	background-image: url("images/fantasy-town-blur.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
+	
 }
 
-hr {
-	border: 1px solid #eee;
-} 
+header {
+	width: 100%;
+	display: inline-block;
+}
 
+
+/* Menu */
 .topnav {
   background-color: #00726E;
   overflow: hidden;
@@ -42,37 +44,17 @@ hr {
   background-color: #c7ffd8;
   color: darkgreen;
 }
-/*end of topnav */
 
-/********* FONTS **********/
-h1{
-	font-size: 40px;
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* page name */
+h1 { 
 	position: center;
-	bottom: 250px;
+	margin-left: auto;
+	margin-right: auto;
 	color: #520675;
-	margin-left: auto;
-	margin-right: auto;
-	filter: drop-shadow (0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-}
-h2 {
-	background-color: white;
-	width: 600px;
-	border: 3px solid #00726E;
-	padding: 50px;
-	font-size: 22px;
-	position: center;
-	color: #00726E;
-	margin-left: auto;
-	margin-right: auto;
-}
-/********** Copyright *********/
-
-.copyright {
-	width: 100%;
-	position: fixed;
-	left: 50%;
-	bottom: 5px;
-	transform: translate(-50%, -50%);
-	margin: 0 auto;
-	
+	font-size: 40px;
 }
