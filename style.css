@@ -52,17 +52,12 @@ header {
 
 /* Ceri's Creations */
 h1 { 
-	/*border-radius: 25px;
-	background: #fff;
-	padding: 20px; 
-	width: 250px;
-	height: 34px; */
 	position: center;
-	bottom: 250px;
-	color: #00726E;
-	/*background-color: #fff;
-	width: 280px;*/
-
+	margin-left: auto;
+	margin-right: auto;
+	color: #520675;
+	font-size: 40px;
+	
 }
 
 	
@@ -75,17 +70,16 @@ img {
 	width: auto;
 	background-color: #bbb;
 	border-radius: 50%;
+	position:auto;
+	margin-top:auto;
 }
 
 /* copyright*/
 .copyright {
 	width: 100%;
-	display: inline-block;
 	position: fixed;
 	left: 50%;
 	bottom: 20px;
 	transform: translate(-50%, -50%);
-	margin: 0 auto;
-	background-color: #fff;
-	
+	margin: 0 auto;	
 }
